@@ -1,0 +1,382 @@
+/* Global Reset
+---------------------------------------------------------------------- */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;border:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Layout
+---------------------------------------------------------------------- */
+
+body {
+	font: .75em Verdana, sans-serif;
+	background: url(../images/main_bg.jpg) top left repeat-x #fff;
+	color: #222;
+	height: 100%;
+}
+
+/* Header
+---------------------------------------------------------------------- */
+
+#header {
+	margin-bottom: 30px;
+	height: 100px;
+}
+a.logo, a.logo:visited, a.logo:hover {
+	margin: 20px 0 0 0;
+	width: 179px;
+	height: 63px;
+	display: block;
+	background: url(../images/logo_csstypeset.jpg) top left no-repeat;
+	text-indent: -7000px;
+	overflow: hidden;
+	float: left;
+}
+a.logo_news, a.logo_news:visited {
+   margin: 37px 0 0 3px;
+	width: 133px;
+	height: 26px;
+	display: block;
+	background: url(../images/logo_news.jpg) top left no-repeat;
+	text-indent: -7000px;
+	overflow: hidden;
+	float: left;
+}
+a.logo_news:hover{
+	background: url(../images/logo_news.jpg) bottom left no-repeat;
+}
+
+
+div.tagline {
+	width: 421px;
+	height: 100px;
+	background: url(../images/tagline.jpg) top left no-repeat;
+	float: right;
+}
+
+/* Content
+---------------------------------------------------------------------- */
+
+#content {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0px 0;
+}
+
+/* Preview panes for text and code */
+.preview {
+	padding: 20px;
+	background: url(../images/preview_bg.jpg) top left no-repeat #efefef;
+	float: left;
+}
+.left_col {
+	width: 450px;
+	height: 216px;
+	float: left;
+}
+.right_col {
+	margin-left: 20px;
+	width: 450px;
+	height: 216px;
+	float: left;
+}
+.left_col h2, .right_col h2 {
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+	height: 28px;
+	width: 450px;
+	float: left;
+}
+.left_col textarea, .right_col textarea {
+	padding: 5px;
+	width: 438px;
+	height: 176px;
+	border: 1px solid #c0c0c0;
+	background: #fff;
+	float: left;
+}
+
+/* Controls for editing text styles */
+.controls {
+	width: 920px;
+	padding: 20px;
+	background: url(../images/controls_bg.jpg) top left no-repeat;
+	float: left;
+}
+.font_style {
+	padding-right: 20px;
+	float: left;
+}
+.font_family {
+	margin-right: 20px;
+}
+#fontSize {
+	width: 25px;
+	padding: 2px;
+	border: 1px solid #c0c0c0;
+}
+.buttons {
+	padding: 0 0 0 20px;
+	float: left;
+	font-size: 0;
+}
+.buttons input {
+	margin-right: 5px;
+}
+option {
+	padding-right: 5px;
+}
+label {
+	padding: 0 4px;
+}
+
+/* Color Chooser*/
+.color {
+	padding: 0 20px;
+	border: dotted #c0c0c0;
+	border-width: 0 1px;
+	float: left;
+}
+.hexValue {
+	width: 50px;
+	padding: 2px 5px;
+	border: 1px solid #c0c0c0;
+}
+
+/* Controls for sliders*/
+.sliders {
+	margin: 25px 0 0 0;
+	width: 960px;
+	float: left;
+	clear: both;
+}
+.letterSpacing {
+	padding: 0 20px 0 30px;
+	width: 250px;
+	background: url(../images/letterSpacing.gif) top left no-repeat;
+	border: dotted #c0c0c0;
+	border-width: 0 1px 0 0;
+	float: left;
+}
+.letterSpacing input{
+	margin: 5px 0 0 0;
+}
+.wordSpacing {
+	margin-left: 20px;
+	padding: 0 20px 0 30px;
+	width: 250px;
+	background: url(../images/wordSpacing.gif) top left no-repeat;
+	border: dotted #c0c0c0;
+	border-width: 0 1px 0 0;
+	float: left;
+}
+.wordSpacing input{
+	margin: 5px 0 0 0;
+}
+.lineSpacing {
+	margin-left: 20px;
+	padding-left: 30px;
+	width: 250px;
+	background: url(../images/lineSpacing.gif) top left no-repeat;
+	float: left;
+}
+.lineSpacing input{
+	margin: 5px 0 0 0;
+}
+
+/* 404 and 403 error pages */
+.errorText {
+	padding: 10px 30px 0 30px;
+	height: 76px;
+	width: 900px;
+	background: url(../images/error_bg.jpg) top left no-repeat;
+}
+.errorText h1 {
+	margin-bottom: 0;
+}
+
+/* ad spots */
+.adblock {
+	width: 182px !important;
+	float: left;
+}
+
+.adspot, .adspot:visited, .adspot:hover {
+	margin-left: 7px;
+	width: 175px;
+	height: 85px;
+	display: block;
+	float: left;
+}
+
+/* Yoggrt ads 
+#yoggrt {
+	margin: 0 auto;
+	width: 330px;
+	height: 110px;
+}
+#yoggrt .yoggrtad {
+	float: left;
+}
+
+#yoggrt .yoggrttext, #yoggrt .adby {
+	margin: 0;
+	padding: 0;
+	width: 150px;
+	text-align: left;
+	line-height: 16px;
+	float: right;
+	position: relative;
+	bottom: 15px;
+}
+*/
+
+.bsap {
+	margin: 0 auto 20px auto;
+	width: 330px;
+	min-height: 110px;
+	text-align: left;
+	}
+	
+.bsa_it_p {
+	display: none !important;
+	}
+	
+.adBy {
+	margin: 5px auto 20px auto;
+	width: 330px;
+	text-align: right;
+	}
+	
+.bsa_it_ad {
+	padding-bottom: 5px !important;
+	}
+	
+
+/* Footer
+---------------------------------------------------------------------- */
+
+#footer {
+	width: 960px;
+	margin-top: 5px;
+	padding: 20px 0;
+	font-size: 90%;
+	color: #999;
+	border-top: 1px dotted #c0c0c0;
+	background: url(../images/controls_bg.jpg) top center no-repeat;
+	text-align: center;
+	float: left;
+}
+#footer p {
+	width: 960px;
+	margin: 0;
+	padding: 15px 0 0 0;
+	text-transform: uppercase;
+	float: left;
+	clear: both;
+}
+
+#copyright {
+	border-top: 1px dotted #c0c0c0;
+}
+
+/* Common
+---------------------------------------------------------------------- */
+
+p, ul {
+	margin-bottom: 15px;
+	line-height: 160%;
+}
+h1, h2, h3, h4 {
+	margin-bottom: 15px;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	letter-spacing: 2px;
+	line-height: 160%;
+	color: #ea3b3b;
+}
+h1 { font-size: 180%; }
+h2 { font-size: 150%; }
+h3 { font-size: 120%; }
+h4 { font-size: 100%; }
+
+a { color: #d13030; text-decoration: none; }
+a:visited { color: #d13030; text-decoration: none;  }
+a:hover { color: #a42121; text-decoration: none; }
+
+a, input {
+	outline: none;
+}
+
+.amp {
+	font-family: "Goudy Old Style", "Book Antiqua", "Palatino", serif;
+	font-style: italic;
+}
+.hide {
+	display: none;
+}
+.clear {
+	clear: both;
+}
+
+/* Floating Input Div == somebody smart should change this*/
+#textInputViewer{
+  position: relative;
+  top: -188px;
+  
+  overflow: auto;
+  
+	padding: 5px;
+	width: 438px;
+	height: 176px;
+	border: 1px solid #c0c0c0;
+	background: #fff;
+	float: left;
+}
+
+/* Browser Support Divs == somebody smart should probably change this*/
+#browserNoSupport{
+  z-index: 2;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  width: 100%;
+  height: 100%;
+  
+  background: #fff  url(../images/notSupported.jpg) no-repeat top center;
+  
+  visibility: hidden;
+}
+
+#noSupportMsg{
+  z-index: 3;
+  
+  font-weight: bold;
+  font-size: 24px;
+  
+  position: absolute;
+  top: 30%;
+  left: 20%;
+    
+  width: 50%;
+  padding: 5%;
+  text-align: center;
+  
+  border: 2px solid #666;
+  background: #fdffcd url(../images/notSupportedMsg.jpg) repeat-x bottom;
+  
+  visibility: hidden;
+}
+
