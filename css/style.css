@@ -54,7 +54,7 @@ img {
     /* Smaller Screens */
     /* Our heading can be smaller */
      header h1 {
-        font-size: 16px;
+        font-size: 30px;
         font-style: italic;
     }
 }
@@ -68,7 +68,7 @@ img {
 		font-size: 30px;
 		line-height: 320px;
 		font-color: blue;
-		font-family: times, sans-serif;
+		font-family: arvo, sans-serif;
 		
 		
 		-moz-transform: scale(-1, 1);
